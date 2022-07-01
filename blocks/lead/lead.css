@@ -1,12 +1,11 @@
 .lead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: calc(1280px - (48px * 2));
-    min-width: calc(100% - (48px * 2));
-    margin: 0 48px 92px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: calc(1280px - (48px * 2));
+  min-width: calc(100% - (48px * 2));
+  margin: 0 48px 92px 48px;
 }
-
 
 @media (max-width: 767px) {
   .lead {
@@ -29,6 +28,3 @@
     margin: 0 148px 92px 148px;
   }
 }
-
-  
-  

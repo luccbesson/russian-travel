@@ -1,8 +1,7 @@
 .header__lang-link {
-  margin: 18px 18px 0 0;
-  font-family: 'Inter';
+  margin: 18px 18px 0px 0;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
-  font-display: swap;
   font-size: 24px;
   line-height: 28px;
   color: #fff;
@@ -10,10 +9,14 @@
   display: block;
 }
 
+.header__lang-link:hover {
+  cursor: url("../../../images/Cursor/Pointer.png"), auto;
+  opacity: 0.8;
+}
+
 .header__lang-link:last-child {
   margin-right: 0;
 }
-
 
 @media (max-width: 767px) {
   .header__lang-link {
@@ -21,28 +24,3 @@
     line-height: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -5,17 +5,13 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(42, 44, 47, 0.3);
+  /*background: #2A2C2F;
+  opacity: 0.3;*/
 }
 
 .cover__item:hover {
-    background: rgba(0, 0, 0, 0.8);
-    cursor: url("../../../images/Cursor/Pointer.png"), auto;
+  background: rgba(42, 44, 47, 0.8);
+  /*opacity: 0.8;*/
+  cursor: url("../../../images/Cursor/Pointer.png"), auto;
 }
-
-
-
-
-
-  
-  
