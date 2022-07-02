@@ -29,7 +29,6 @@
 @media (min-width: 1280px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    margin: 0 48px 92px 48px;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
   }

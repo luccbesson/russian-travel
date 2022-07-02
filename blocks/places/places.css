@@ -32,6 +32,5 @@
     /*max-width: 984px;
     margin: 0 148px 92px 148px;*/
     max-width: calc(100% - 148px * 2);
-    margin: 0 auto 92px auto;
   }
 }
